@@ -8,6 +8,7 @@ const metascraper = require('metascraper').load([
   require('metascraper-date')(),
   require('metascraper-description')(),
   require('metascraper-image')(),
+  require('metascraper-video')(),
   require('metascraper-logo')(),
   require('metascraper-clearbit-logo')(),
   require('metascraper-logo-favicon')(),
