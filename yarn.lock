@@ -2266,6 +2266,13 @@ metascraper-lang@^3.11.4:
   dependencies:
     lodash "~4.17.10"
 
+metascraper-lang@^5.11.6:
+  version "5.11.6"
+  resolved "https://registry.yarnpkg.com/metascraper-lang/-/metascraper-lang-5.11.6.tgz#bf8b38c220c472bf46fb1adb78e36b4d2a223cfe"
+  integrity sha512-gIHrmR6YE1+W2FUmYMggiD8NU7oCuQUYG8fYE0zKxdoAseM2qQcmZ+aGgYAFL4RlgMQwm+9zxhcLX+Te4oMRDw==
+  dependencies:
+    "@metascraper/helpers" "^5.11.6"
+
 metascraper-logo-favicon@^3.13.0:
   version "3.13.0"
   resolved "https://registry.yarnpkg.com/metascraper-logo-favicon/-/metascraper-logo-favicon-3.13.0.tgz#6f750a17818ba3868983a03bcfa35f1e45ae8d8d"
