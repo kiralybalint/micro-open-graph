@@ -28,6 +28,7 @@ const TWENTY_FOUR_HOURS = 86400000
 
 module.exports = async (req, res) => {
   res.setHeader('Access-Control-Allow-Origin', '*')
+  res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
 
   const { query: { url } } = parse(req.url, true)
   if (!url) return send(res, 401, { message: 'Please supply an URL to be scraped in the url query parameter.' })
